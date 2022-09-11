@@ -1,0 +1,949 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cuddle Baby</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="admin.js"></script>
+    <script src="js.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+    <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="205">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Cuddle Baby</a> </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Services</a></li>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header style="background-image:url('wp3314979.jpg');">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Products at Cuddle Baby</h1>
+                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+                <a href="#" class="btn btn-default-new">Shop Boys</a><a href="#" class="btn btn-default-new">Shop Accesoires</a><a href="#" class="btn btn-default-new">Shop Girls</a>
+            </div>
+        </div>
+    </header>
+   <div id="sidebar">
+	<h3>CART</h3>
+    <div id="cart">
+    	<span class="empty">No items in cart.</span>       
+    </div>
+    
+    <h3>CATEGORIES</h3>
+    <div class="checklist categories">
+    	<ul>
+        	<li><a href=""><span></span>New Arivals</a></li>
+            <li><a href=""><span></span>Accesories</a></li>
+            <li><a href=""><span></span>Bags</a></li>
+            <li><a href=""><span></span>Dressed</a></li>
+            <li><a href=""><span></span>Jackets</a></li>
+            <li><a href=""><span></span>jewelry</a></li>
+            <li><a href=""><span></span>Shoes</a></li>
+            <li><a href=""><span></span>Shirts</a></li>
+            <li><a href=""><span></span>Sweaters</a></li>
+            <li><a href=""><span></span>T-shirts</a></li>
+        </ul>
+    </div>
+    
+    <h3>COLORS</h3>
+    <div class="checklist colors">
+    	<ul>
+        	<li><a href=""><span></span>Beige</a></li>
+            <li><a href=""><span style="background:#222"></span>Black</a></li>
+            <li><a href=""><span style="background:#6e8cd5"></span>Blue</a></li>
+            <li><a href=""><span style="background:#f56060"></span>Brown</a></li>
+            <li><a href=""><span style="background:#44c28d"></span>Green</a></li>
+        </ul>
+        
+        <ul>
+        	<li><a href=""><span style="background:#999"></span>Grey</a></li>
+            <li><a href=""><span style="background:#f79858"></span>Orange</a></li>
+            <li><a href=""><span style="background:#b27ef8"></span>Purple</a></li>
+            <li><a href=""><span style="background:#f56060"></span>Red</a></li>
+            <li><a href=""><span style="background:#fff;border: 1px solid #e8e9eb;width:13px;height:13px;"></span>White</a></li>
+        </ul>        
+    </div>
+    
+    <h3>SIZES</h3>
+    <div class="checklist sizes">
+    	<ul>
+        	<li><a href=""><span></span>XS</a></li>
+            <li><a href=""><span></span>S</a></li>
+            <li><a href=""><span></span>M</a></li>
+        </ul>
+        
+        <ul>
+        	<li><a href=""><span></span>L</a></li>
+            <li><a href=""><span></span>XL</a></li>
+            <li><a href=""><span></span>XXL</a></li>
+        </ul>        
+    </div>
+    
+     <h3>PRICE RANGE</h3>
+     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" />
+</div>
+<!--
+    <br>
+    <figure class="pizza">
+  <div class="pizza__herro">
+    <img src="https://images.unsplash.com/photo-1474600056930-615c3d706456?ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80" alt="pizza" class="pizza__img">
+  </div>
+  <div class="pizza__content">
+    <div class="pizza__title">
+      <h1 class="pizza__heading">Pizza Vegetale 👌</h1>
+      <div class="pizza__tag pizza__tag--1">#vegetarian</div>
+      <div class="pizza__tag pizza__tag--2">#italian</div>
+    </div>
+    <p class="pizza__description">Yummy veggie pizza with tasty olives, crisp       peppers, fresh arugula and original italian sauce.</p>
+    <div class="pizza__details">
+      <p class="pizza__detail"><span class="emoji">🍕</span>850 kcal</p>
+      <p class="pizza__detail"><span class="emoji">⏱</span>30 min</p>
+      <p class="pizza__detail"><span class="emoji">⭐</span>4.7 / 5</p>
+    </div>
+  </div>
+  <div class="pizza__price">$11.99</div>
+</figure>
+-->
+
+
+<div id="grid">
+    <div class="product">
+    	<div class="info-large">
+        	<h4>FLUTED HEM DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#f56060"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>                
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">FLUTED HEM DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>PLEAT PRINTED DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#f56060"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">PLEAT PRINTED DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>FLOWY SHIRT DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#f56060"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">        
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">FLOWY SHIRT DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>DOUBLE LAYER DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#f56060"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">DOUBLE LAYER DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/6.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>BEAD DETAIL DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#f56060"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">BEAD DETAIL DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>PLEATED DETAIL DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#9b887b"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">PLEATED DETAIL DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/6.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>PRINTED DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#9b887b"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">PRINTED DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+    
+    <div class="product">
+    <div class="info-large">
+        	<h4>PRINTED DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#9b887b"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">PRINTED DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/8.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>  
+        <div class="product">
+    <div class="info-large">
+        	<h4>PLEATED DETAIL DRESS</h4>
+            <div class="sku">
+            	PRODUCT SKU: <strong>89356</strong>
+            </div>
+             
+            <div class="price-big">
+            	<span>$43</span> $39
+            </div>
+             
+            <h3>COLORS</h3>
+            <div class="colors-large">
+                <ul>
+                    <li><a href="" style="background:#222"><span></span></a></li>
+                    <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                    <li><a href="" style="background:#9b887b"><span></span></a></li>
+                    <li><a href="" style="background:#44c28d"><span></span></a></li>
+                </ul> 
+            </div>
+
+            <h3>SIZE</h3>
+            <div class="sizes-large">
+ 				<span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            
+            <button class="add-cart-large">Add To Cart</button>                          
+                         
+        </div>
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="mittens-with-reversible-sequins-for-girls.jpg" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">Add to cart</div>
+                <div class="view_gallery">View gallery</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">$39</span>
+                        <span class="product_name">PLEATED DETAIL DRESS</span>    
+                        <p>Summer dress</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>COLORS</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            
+            <div class="product-back">
+                <div class="shadow"></div>
+                <div class="carousel">
+                    <ul class="carousel-container">
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/6.jpg" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/7.jpg" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-back">
+                    <div class="cy"></div>
+                    <div class="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="menu.js"></script>
+
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
